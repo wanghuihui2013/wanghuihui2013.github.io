@@ -1,0 +1,9 @@
+/*头部公共样式*/
+#head{width:100%;padding:9px 0 6px;background:#3b4367;float: left;}
+#head div{width:22%;float: left;}
+#head div.head_title{width:50%;}
+#head img{width: 25px;height: auto;}
+#head h3{font-size: 18px;font-weight: normal;text-align: center;color: #fff;width:100%;
+	overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.head_left{padding-left: 2%;}
+.head_right{text-align: right;padding-right: 2%;}

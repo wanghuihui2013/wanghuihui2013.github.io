@@ -1,0 +1,9 @@
+
+#container{clear:both;width: 100%;/*overflow: hidden;*/}
+body{ background: #e8ebf2}
+ul{ background: #fff; margin-top: 20px;border-top: 1px solid #c8c8c8;border-bottom: 1px solid #c8c8c8;
+	font-size: 1.2em;}
+ul li{margin-left: 20px;background: url(../images/more.png) no-repeat 95% 50%; padding:10px 0;
+		border-bottom: 1px solid #c8c8c8;background-size: 15px 15px;}
+ul li img{ margin-right: 5%;width:40px;height:auto;}		
+ul li:last-child{ border: none;}

@@ -1,0 +1,60 @@
+/*容器样式*/
+#container{background: url(../images/col1.png) no-repeat;background-size: 100% 100%; width:100%;
+	height:100%;position: absolute;left:0;top:0;}
+
+/*头部菜单样式*/
+.head{ padding-top: 10px;}
+.left_nav{float: left;margin-left: 15px;}
+.left_nav a{padding-top: -10px;}
+.left_nav a:link,.left_nav a:visited{color: #fff;font-size: 20px;font-family: "SimSun"}
+.right_nav{float: right;margin-right: 15px;}
+.right_nav img{width: 22px;height: auto;}
+
+/*底部菜单*/
+.bottom{background:;float: left;position:absolute;bottom:0px;left:0;width: 100%;}
+	/*搜索部分*/
+.search{float: left;clear: both;background: rgba(00,00,00,0.3);width: 90%;margin:5px 5% 10px;
+	border-radius: 5px;height:35px;}
+.search div{ float: left;}
+.search .ewm{float: right;}
+.sousuo img{width:20px;height: auto;margin:8px 10px;}
+.key_word{width: 65%;}
+.key_word input{line-height: 25px;height: 25px;width: 100%;background: none;border:none;outline:none;
+	padding-top: 5px;color: #fff;}
+.ewm{height:35px;border-left:1px solid #e2e2e2;}
+.ewm img{width:30px;height:auto;margin:7px 10px;}
+
+
+	/*菜单列表*/
+.nav_list{clear: both;float:left;width: 100%}
+.nav_list ul{float: left;width: 100%;}
+.nav_list li{ float: left;margin-bottom:2px;width: 33%;text-align: center;}
+.nav_list li img{width: 55%;height:auto;}
+.nav_list li a:link,.nav_list li a:visited{color: #fff;}
+.nav_list li a:hover{color:#FEBF31;}
+
+
+/*右侧菜单*/
+.right_bar{background: #2b2d33;position: absolute;z-index: -100;left: 0;top: 0;width: 100%;height: 100%;display: none;}
+.right_bar ul{padding-top:20px;}
+.right_bar li{width: 100%;}
+.right_bar li:nth-of-type(1) a{background-image:url(../images/home.png)}
+.right_bar li:nth-of-type(2) a{background-image:url(../images/user.png)}
+.right_bar li:nth-of-type(3) a{background-image:url(../images/localtion.png)}
+.right_bar li:nth-of-type(4) a{background-image:url(../images/quick_phone.png)}
+.right_bar li:nth-of-type(5) a{background-image:url(../images/setting.png)}
+.right_bar li:nth-of-type(6) a{background-image:url(../images/xiaoxi.png)}
+.right_bar li a{display: block;padding: 20px 0;padding-left:68%;background-repeat: no-repeat;
+		background-size: 20px auto;background-position: 60% 21px;}
+.right_bar li a:link,.right_bar li a:visited{color: #fff;font-size: 14px;}
+.right_bar li a:hover{background-color: #35383f;}
+
+ 
+
+/****** PC *******/
+@media only screen
+and (max-width: 280px){
+	.search{margin-bottom: 0px;}
+	.nav_list li img{width: 70%;}
+	.key_word{width:60%;}
+}

@@ -1,0 +1,14 @@
+/**/
+header h1{ padding:15px 0 15px 15px; font-size: 18px; border-bottom: 1px solid #c8c8c8;}
+
+#content{float: left;padding-bottom: 15px;width: 100%;}
+div.img_box{ width: 100%; height:auto;}
+div.img_box img{ width: 100%; height:auto;}
+ul.contactico,ul.contact{ float: left;}
+ul.contactico{ width: 5%; margin-left: 3%;margin-right: 2%}
+ul.contact{color: #737373; font-size: 14px; width: 80%;margin-left: 10%;}
+ul.contactico li{ margin-top: 15px;}
+ul.contact li{ border-bottom: 1px solid #c8c8c8;margin-top: 15px;height:33px;padding-top: 12px;
+	padding-left: 15px;}
+ul.contact li:nth-of-type(4){border: none;}
+footer{ clear:left; background: #e8ebf2; border-top: 1px solid #c8c8c8;padding:20px;font-size: 14px;}

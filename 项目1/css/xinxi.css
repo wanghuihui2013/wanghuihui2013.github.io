@@ -1,0 +1,30 @@
+
+/*容器样式*/
+#container{background: #e8ebf2; position: relative; width: 100%;clear: both;}
+
+/*标题样式*/
+header h2{ margin:0 5% 10px 5%; font-size: 20px; padding-top: 10px;}
+header p{ font-size: 1em; color: #666; text-align: center;margin-bottom: 10px;}
+header p:nth-of-type(1){ float: left;margin-left: 5%}
+header p:nth-of-type(2){ float: right;margin-right: 5%}
+
+/*内容样式*/
+#content{ margin:0 15px;padding-bottom: 150px;}
+div.img_box{ width: 100%; height:auto;}
+div.img_box img{ width: 100%; height:auto;}
+#content p{ font-size: 14px; margin-top: 18px;width: 100%}
+#content p img{width: 100%;height: auto;}
+#content h2{ font-size:20px;margin: 15px 0 10px 5px;}
+#content div.headico{ float:left;width:25%;}
+#content div.headico img{ width:100%; height:auto; border-radius: 100px;}
+ul.comment{ float: left;margin-left:10px; width: 65%}
+ul.comment li{ padding-top: 10px;}
+ul.comment li:nth-of-type(1){ color: #7ca0c0; font-size: 1em; padding-top: 5px;}
+ul.comment li:nth-of-type(2){ font-size: 1.2em;}
+
+/*底部评论样式*/
+footer {  position: fixed; bottom: 0;padding:5px 0 5px 25px; border-top:1px solid #cbcbcb;
+		 background: #fafafa; width:100%; left:0;}
+footer input{ outline:none;height:30px; padding-left: 15px; border-radius:8px; 
+				border: 1px solid #cbcbcb; font-size:14px; color: #bbc3c8; width: 65%}
+footer span{ font-size:1.5em; color: #666; margin-left:15px;}

@@ -1,0 +1,61 @@
+.clearfix:before,.clearfix:after{
+	display: block;
+	content:"";
+}
+.clearfix:after{
+	clear:both;
+}
+.body{
+	min-width: 1000px;
+}
+.logo img{
+	width: 7rem;
+	/*margin-top: rem;*/
+
+}
+.whh{
+	width: 269px;
+	height: auto;
+	border-radius: 50%;
+}
+.whhname{
+	margin:auto;
+	float: left;
+	font-family: "微软雅黑"
+
+}
+
+.whhname1{
+	
+	float:left ;
+	font-family: "微软雅黑"
+}
+.whhperson{
+	font-family: "微软雅黑"
+}
+.strip p{
+	/*color:#333;*/
+	font-family: "微软雅黑"
+}
+.whhperson .personal{
+	font-size: 30px;
+}
+
+.whhname ol li{
+	font-size: 16px;
+	line-height: 40px;
+	color:#999;
+	list-style: block;
+
+}
+.cwj{
+	padding-bottom:100px;
+}
+.wqq11{
+	float: left;
+	margin-left: 5%;
+}
+.wqq12{
+	float: right;
+	margin-right: 35%;
+}

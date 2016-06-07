@@ -1,0 +1,20 @@
+/*容器*/
+#container{width: 100%;float: left;}
+/*新闻的banner*/
+header{position: relative;margin: 0 5x 10px 5px; }
+div.img_box{ width: 100%; height:auto;}
+div.img_box img{ width: 100%; height:auto;}
+p.title{ font-size: 1em; position: absolute; bottom: 0; text-align: center; width: 100%; color:#fff;
+			background:-webkit-linear-gradient(bottom,#000 20%,rgba(255,255,255,0)); 
+			padding:5px 0; opacity:0.8;}
+
+/*新闻的内容*/
+ul li{clear:both;}
+ul.new_content li p:nth-of-type(1){ font-size: 1em;  padding: 15px 15px 0 15px;height:35px;overflow: hidden;}
+ul.new_content li p:nth-of-type(1) span{font-size: 0.8em; background: #c45757; color: #fff;padding: 3px;}
+ul.new_content li img{ width: 60px; height: auto; background: #c6cad3; float: right;margin-top:5px;
+						border-radius: 8px; margin-right: 5px;}
+ul.new_content li p:nth-of-type(2){font-size: 0.8em; color: #666;padding:5px 0 5px 15px;}
+ul.new_content li{ border-bottom: 1px solid #c8c8c8; margin: 5px;}
+a:link,a:visited{color:#222;text-decoration:none;border:none;}
+

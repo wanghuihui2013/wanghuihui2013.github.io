@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0 auto; padding:0px;}
+body{text-align:center; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#6C6C6C; background:#E8E6E7;}
+/** 清除内外边距 **/
+body, h1, h2, h3, h4, h5, h6, hr, p,
+blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+form, fieldset, legend, button, input, textarea, /* form elements 表单元素 */
+th, td, /* table elements 表格元素 */
+img/* img elements 图片元素 */{
+border:0;margin:0;padding:0;}
+em{font-style:normal;}
+/** 重置列表元素 **/
+ul, ol{list-style:none;}
+div,dl,dt,dd,h1,h2,h3,h4,h5,h6,img,ol,ul,li,table,th,td,p,span,a{border:0;}
+
+
+
+.top{ width:940px; height:auto; text-align:center;}
+.top_hx{ width:940px; height:5px; overflow:hidden;}
+.top_mid{ width:940px; height:79px;  background:url(../img/002.jpg) repeat-x; overflow:hidden;}
+.top_mid_l{ width:418px; height:79px; float:left; text-align:left;}
+.top_mid_r{ width:512px; height:79px; float:left; padding-right:10px; text-align:right;}
+.top_mid_r ul{ width:512px;}
+.top_mid_r ul li{ width:512px; height:30px; float:left;  text-align:right; line-height:30px; padding-top:5px;}
+.top_mid_r ul li a{color:#6C6C6C; text-decoration:none;}
+.top_mid_r ul li a:hover{ color:#b10000; text-decoration:none;}

@@ -1,0 +1,70 @@
+*{
+		margin:0;
+		padding:0;
+	}
+html,body,.swiper-container{
+		width: 100%;
+	}
+
+.swiper-slide{
+	padding-bottom: 14rem;
+	height:100%;
+	width: 100%;
+	background-image: url(../images/52.png);
+	background-repeat:repeat-x;
+}
+.swiper-slide img{
+	display: block;
+	margin:auto;
+	margin-top:2rem;
+	border-radius: 50%;
+	width: 2rem;
+	height: auto;
+
+}
+.swiper-slide .info{
+	font-family: "黑体";
+	margin-left: 23%;
+	line-height: 2rem;
+	
+}
+.name{
+	margin-top:2rem;
+}
+.flower{
+	position: absolute;
+	top: 70%;
+	left:38%;
+
+}
+.flower1{
+	position: absolute;
+	top: 60%;
+	left:38%;
+
+}
+
+.skill{
+	font-family: "黑体";
+	font-size: 3rem;
+	margin-left: 40%;
+	margin-top: 20%;
+}
+.skill-info{
+	font-size: 1.7rem;
+	font-family: "黑体";
+	margin:2rem;
+
+}
+.pers{
+	font-family: "黑体";
+	font-size: 3rem;
+	margin-left: 20%;
+	margin-top: 8%;
+}
+.person{
+	font-size: 1rem;
+	font-family: "黑体";
+	margin:1rem;
+	line-height: 1.5rem;
+}

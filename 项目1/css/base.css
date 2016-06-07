@@ -1,0 +1,6 @@
+/*公共样式*/
+body,h1,h2,h3,h4,h5,p,ul,ol,li{margin:0px;padding:0px;}
+body{font: 12px/1.5 "Microsoft Yahei","SimHei","SimSun";height:100%;/*overflow: hidden;*/}
+ul,ol,li{list-style: none;}
+img{vertical-align: middle;border:none;}
+a:link,a:visited{text-decoration: none;color:#333;}

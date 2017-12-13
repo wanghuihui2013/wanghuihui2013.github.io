@@ -1,5 +1,4 @@
-/*--
-Author: W3layouts
+392Author: W3layouts
 Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
@@ -392,6 +391,7 @@ font-weight: 600;
 .work-grid-info {
 background:#ffffff;
 padding: 20px 18px;
+height:390px;
 }
 .work-grid-info h4{
   font-family: 'Lato', sans-serif;
